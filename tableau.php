@@ -1,3 +1,4 @@
+
 <?php
 $board = array 
     ('Indiana Jones et le Royaume du Crâne de Cristal ' =>  'Harrison Ford , Cate Blanchett , Karen Allen',
@@ -6,9 +7,7 @@ $board = array
 );
 
 
-
-
 foreach ($board as $key1 => $value1) {
-    echo "film" .$key1. "actor" .$value1. "</br>";
-    
- } ;
+    echo " Dans le film " .$key1. "les acteurs sont" .$value1. "</br>";
+     
+ } 
